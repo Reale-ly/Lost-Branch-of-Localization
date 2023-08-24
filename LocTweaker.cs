@@ -1,8 +1,10 @@
-﻿using LBoL.ConfigData;
+using LBoL.ConfigData;
 using LBoL.Core;
 using LBoL.Core.Cards;
 using LBoL.Core.StatusEffects;
+using LBoL.EntityLib.Cards.Character.Cirno;
 using LBoL.EntityLib.Cards.Character.Marisa;
+using LBoL.EntityLib.Cards.Neutral.Black;
 using LBoL.EntityLib.Cards.Neutral.Red;
 using LBoLEntitySideloader;
 using LBoLEntitySideloader.Attributes;
@@ -32,7 +34,7 @@ namespace LBoL_Sideloader_Template1
 
         public override LocalizationOption LoadLocalization()
         {
-            var globalLoc = new GlobalLocalization(embeddedSource);
+            var globalLoc = new GlobalLocalization(embeddedSource, true);
             globalLoc.LocalizationFiles.AddLocaleFile(Locale.En, "Cards");
 
             return globalLoc;
@@ -134,6 +136,174 @@ namespace LBoL_Sideloader_Template1
         public override IdContainer GetId()
         {
             return nameof(NightMana4);
+        }
+
+        [DontOverwrite]
+        public override CardImages LoadCardImages()
+        {
+            return null;
+        }
+
+        public override LocalizationOption LoadLocalization()
+        {
+            var globalLoc = new GlobalLocalization(embeddedSource);
+            return globalLoc;
+        }
+
+
+        [DontOverwrite]
+        public override CardConfig MakeConfig()
+        {
+            return null;
+        }
+    }
+
+    [OverwriteVanilla]
+    public sealed class RunAwayLoc : CardTemplate
+    {
+        public override IdContainer GetId()
+        {
+            return nameof(RunAway);
+        }
+
+        [DontOverwrite]
+        public override CardImages LoadCardImages()
+        {
+            return null;
+        }
+
+        public override LocalizationOption LoadLocalization()
+        {
+            var globalLoc = new GlobalLocalization(embeddedSource);
+            return globalLoc;
+        }
+
+
+        [DontOverwrite]
+        public override CardConfig MakeConfig()
+        {
+            return null;
+        }
+    }
+
+    [OverwriteVanilla]
+    public sealed class DarkSatelliteLoc : CardTemplate
+    {
+        public override IdContainer GetId()
+        {
+            return nameof(DarkSatellite);
+        }
+
+        [DontOverwrite]
+        public override CardImages LoadCardImages()
+        {
+            return null;
+        }
+
+        public override LocalizationOption LoadLocalization()
+        {
+            var globalLoc = new GlobalLocalization(embeddedSource);
+            return globalLoc;
+        }
+
+
+        [DontOverwrite]
+        public override CardConfig MakeConfig()
+        {
+            return null;
+        }
+    }
+
+    [OverwriteVanilla]
+    public sealed class StarSkyLoc : CardTemplate
+    {
+        public override IdContainer GetId()
+        {
+            return nameof(StarSky);
+        }
+
+        [DontOverwrite]
+        public override CardImages LoadCardImages()
+        {
+            return null;
+        }
+
+        public override LocalizationOption LoadLocalization()
+        {
+            var globalLoc = new GlobalLocalization(embeddedSource);
+            return globalLoc;
+        }
+
+
+        [DontOverwrite]
+        public override CardConfig MakeConfig()
+        {
+            return null;
+        }
+    }
+
+    [OverwriteVanilla]
+    public sealed class MarisaEatLoc : CardTemplate
+    {
+        public override IdContainer GetId()
+        {
+            return nameof(MarisaEat);
+        }
+
+        [DontOverwrite]
+        public override CardImages LoadCardImages()
+        {
+            return null;
+        }
+
+        public override LocalizationOption LoadLocalization()
+        {
+            var globalLoc = new GlobalLocalization(embeddedSource);
+            return globalLoc;
+        }
+
+
+        [DontOverwrite]
+        public override CardConfig MakeConfig()
+        {
+            return null;
+        }
+    }
+
+    [OverwriteVanilla]
+    public sealed class DoubleManaLoc : CardTemplate
+    {
+        public override IdContainer GetId()
+        {
+            return nameof(DoubleMana);
+        }
+
+        [DontOverwrite]
+        public override CardImages LoadCardImages()
+        {
+            return null;
+        }
+
+        public override LocalizationOption LoadLocalization()
+        {
+            var globalLoc = new GlobalLocalization(embeddedSource);
+            return globalLoc;
+        }
+
+
+        [DontOverwrite]
+        public override CardConfig MakeConfig()
+        {
+            return null;
+        }
+    }
+
+    [OverwriteVanilla]
+    public sealed class ShannvAbilityLoc : CardTemplate
+    {
+        public override IdContainer GetId()
+        {
+            return nameof(ShannvAbility);
         }
 
         [DontOverwrite]
