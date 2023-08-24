@@ -1,5 +1,6 @@
 # Disclaimer!
-As of August 2023, I am no longer affiliated with the developers of LBoL. While I believe these translations are better than the current translations, it is still highly subjective. Keep in mind these translations are NOT endorsed by the developers in any way. If you like them, use them. If not, feel free to ignore this.
+As of August 2023, I am no longer affiliated with the developers of LBoL and these translations are NOT endorsed by the developers in any way. Keep in mind that localization contains a fair bit of subjective elements, so while I do believe this is an improvement, you might think otherwise. If you like them, use them. If not, feel free to ignore it.
+
 
 
 ## About
